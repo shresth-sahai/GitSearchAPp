@@ -147,35 +147,34 @@ function Repositeries() {
             </th>
             <th>
               Forks{" "}
-              <button className="ui icon button" fdprocessedid="51i6sc">
+              <button className="ui icon button" onClick={handleFCDescSort} >
                 <i
                   className="sort numeric up icon"
                   name="forks_count"
-                  onClick={handleFCDescSort}
+                  
                 ></i>
               </button>
-              <button className="ui icon button" fdprocessedid="51i6sc">
+              <button className="ui icon button" onClick={handleFCAscSort} >
                 <i
                   className="sort numeric down icon"
                   name="forks_count"
-                  onClick={handleFCAscSort}
                 ></i>
               </button>
             </th>
             <th>
               Open Issues{" "}
-              <button className="ui icon button" fdprocessedid="51i6sc">
+              <button className="ui icon button" onClick={handleOIDescSort}>
                 <i
                   className="sort numeric up icon"
                   name="open_issues"
-                  onClick={handleOIDescSort}
+                  
                 ></i>
               </button>
-              <button className="ui icon button" fdprocessedid="51i6sc">
+              <button className="ui icon button" onClick={handleOIAscSort}>
                 <i
                   className="sort numeric down icon"
                   name="open_issues"
-                  onClick={handleOIAscSort}
+                  
                 ></i>
               </button>
             </th>
